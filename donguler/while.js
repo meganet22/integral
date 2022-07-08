@@ -53,3 +53,11 @@ sayac++;
 }
 
 -
+0 ile 10 arasında (0 dahil 10 dahil) yer alan sayıların karesini(kendisiyle çarpımı) consola yazdıran bir JavaScript programı yazınız.
+console.log("0-10 arası sayıların kareleri 0 ve 10 dahil");
+let sayac = 0; 
+while ( sayac < 11 ) { 
+    console.log(sayac + " sayısının karesi = " + (sayac * sayac));
+   sayac++; 
+}
+-

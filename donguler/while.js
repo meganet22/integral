@@ -71,3 +71,23 @@ while ( sayac < 101 ) {
    sayac++; 
 }
 -
+0 ile 100 arasında(0 ve 100 hariç) 10'un katı olan sayıları consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 100 arasında(0 ve 100 hariç) 10'un katı olan sayılar");
+
+for(let i = 1; i < 100; i++){
+  if(i %10 === 0) console.log(i);
+}
+-
+0 ile 100 arasında(0 ve 100 hariç) tek sayıları(2'ye bölümünden kalan 1 olmalı) consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 100 arasında(0 ve 100 hariç) tek sayılar");
+for(let i = 1;i < 100; i++){
+  if(i % 2 === 1) console.log(i);
+}
+-
+0 ile 100 arasında(0 ve 100 hariç) çift sayıları(2'ye bölümünden kalan 0 olmalı) consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 100 arasında(0 ve 100 hariç) çift sayılar");
+
+for(let i = 1; i < 100; i++){
+  if(i % 2 === 0) console.log(i);
+}
+-

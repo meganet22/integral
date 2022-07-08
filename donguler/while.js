@@ -61,3 +61,13 @@ while ( sayac < 11 ) {
    sayac++; 
 }
 -
+0 ile 100 arasında(0 dahil 100 dahil) hem 3'ün ve hem 4'ün katı olan sayıları consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 100 arasında hem 3'ün ve hem 4'ün katı");
+let sayac = 0; 
+while ( sayac < 101 ) { 
+   if ( sayac % 3 === 0 && sayac % 4 === 0 ) { 
+     console.log(sayac); 
+   }
+   sayac++; 
+}
+-

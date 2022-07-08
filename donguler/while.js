@@ -41,3 +41,15 @@ sayac++;
 }
 
 -
+0 ile 100 arasında(0 ve 100 hariç) çift sayıları(2'ye bölümünden kalan 0 olmalı) consola yazdıran bir JavaScript programı yazınız
+console.log("0(dahil) ile 100(dahil) arasında 2'nin katları:");
+let sayac = 0; 
+while ( sayac < 101 ) { 
+let kalan = sayac % 2; 
+if ( kalan === 0 ) { 
+console.log(sayac); 
+}
+sayac++; 
+}
+
+-

@@ -91,3 +91,40 @@ for(let i = 1; i < 100; i++){
   if(i % 2 === 0) console.log(i);
 }
 -
+0 ile 10 arasında (0 dahil 10 dahil) yer alan sayıların karesini(kendisiyle çarpımı) consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 10 arasında (0 dahil 10 dahil) yer alan sayıların kareleri");
+
+for(let i = 0; i < 11; i++){
+  console.log(i * i);
+}
+-
+0 ile 100 arasında(0 dahil 100 dahil) hem 3'ün ve hem 4'ün katı olan sayıları consola yazdıran bir JavaScript programı yazınız.
+console.log("0 ile 100 arasında(0 dahil 100 dahil) hem 3'ün ve hem 4'ün katı olan sayılar");
+
+for(let i = 0; i < 101; i++){
+  if(i % 3 === 0 && i % 4 === 0) console.log(i);
+}
+-
+     Aşağıdaki adımları gerçekleştiren bir JavaScript programı yazınız.
+a. "aranan" adıyla bir değişken oluşturun ve 0-200 arasında bir tamsayı değeri aktarın
+b. for döngüsü ile 0 ile 100 arasında(0 dahil 100 hariç) 100 kez çalışacak kod bloğu oluşturun
+c. döngü içinde "aranan" sayısına eşit değere ulaşıldığında consolda "aranan sayı bulundu" yazsın ve döngü sonlandırılsın
+
+let aranan = 35;  
+for(let i = 0; i < 100; i++){
+  if(aranan === i) {console.log(" aranan sayı bulundu ", i);break;}
+}
+-
+ Aşağıdaki adımları gerçekleştiren bir JavaScript programı yazınız.
+a. "aranan" adıyla bir değişken oluşturun ve 0-200 arasında bir tamsayı değeri aktarın
+b. for döngüsü ile 0 ile 100 arasında(0 dahil 100 hariç) 100 kez çalışacak kod bloğu oluşturun
+c. döngü içinde "aranan" sayısına eşit değere ulaşıldığında consolda "aranan sayı bulundu" yazsın ve döngü sonlandırılsın
+for ( let i = 0; i < 10; i++ ) {
+ let t = '';
+ for ( j = 10; j > i; j-- ) {
+   t += '*';
+ }
+ console.log( t  );
+}
+-
+    

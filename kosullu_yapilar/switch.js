@@ -9,3 +9,21 @@ switch (17) {
     default:
         console.log("Hiçbir koşul sağlanmadı")
 }
+
+
+
+-Switch case kullanın birden fazla değişkeni kontrol edin.
+function basla()
+{
+    switch(navigator.platform)
+    {
+        case "Win32":
+        alert("Windows kullanıyorsunuz");
+        break;
+        case "MacPPC":
+        alert("Mac kullanıyorsunuz");
+        break;
+        default:
+        alert("Kullandığınız ortam:" + navigator.platform);
+    }
+}
